@@ -1,4 +1,4 @@
-[![](https://discord.c99.nl/widget/theme-2/522050684242231297.png)]
+[![](https://discord.c99.nl/widget/theme-2/522050684242231297.png)](https://discord.com/channels/266585560125014017/266585560125014017)
 
 <!--
 #Discord card exemple 
