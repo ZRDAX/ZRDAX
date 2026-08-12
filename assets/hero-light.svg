@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520" role="img">
+<defs>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+  <path d="M32 0H0V32" fill="none" stroke="#D4DCD7" stroke-width="1"/>
+ </pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1400" height="520" fill="#F3F5F2"/>
+<rect width="1400" height="520" fill="url(#grid)"/>
+
+<!-- frame -->
+<g fill="none" stroke="#17201B">
+ <rect x="42" y="42" width="1316" height="436" rx="2" stroke-width="2"/>
+ <path d="M42 116H1358M42 410H1358" stroke-width="1"/>
+ <path d="M116 42V478M1284 42V478" stroke-width="1"/>
+</g>
+
+<!-- reference marks -->
+<g stroke="#86B89C" fill="none" stroke-width="2">
+ <path d="M82 78h22M93 67v22M1276 78h22M1287 67v22"/>
+ <circle cx="116" cy="116" r="5" fill="#86B89C"/>
+ <circle cx="1284" cy="116" r="5" fill="#86B89C"/>
+</g>
+
+<!-- abstract infrastructure topology -->
+<g fill="none" stroke="#17201B" stroke-width="2.5">
+ <path d="M190 330H365L425 270H570L630 205H770L830 270H975L1035 330H1210"/>
+ <path d="M425 270V218H570V270"/>
+ <path d="M630 205V148H770V205"/>
+ <path d="M830 270V218H975V270"/>
+ <path d="M520 218V182M700 148V118M910 218V182"/>
+</g>
+
+<g fill="#86B89C" stroke="#86B89C" filter="url(#glow)">
+ <circle cx="425" cy="270" r="6"/>
+ <circle cx="630" cy="205" r="7"/>
+ <circle cx="830" cy="270" r="6"/>
+</g>
+
+<!-- callout lines -->
+<g fill="none" stroke="#86B89C" stroke-width="1.5">
+ <path d="M425 270V350H280"/>
+ <path d="M630 205V350H630"/>
+ <path d="M830 270V350H1010"/>
+</g>
+
+<!-- text -->
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#17201B">
+ <text x="138" y="82" font-size="14" letter-spacing="4">ARCHIVE / 001</text>
+ <text x="1262" y="82" font-size="12" text-anchor="end" letter-spacing="3" fill="#68756E">SYSTEM STATUS :: ONLINE</text>
+
+ <text x="138" y="188" font-size="72" font-weight="700" letter-spacing="9">ROCHADEL</text>
+ <text x="142" y="226" font-size="19" letter-spacing="6">INFRASTRUCTURE / DEVOPS ENGINEERING</text>
+
+ <text x="138" y="384" font-size="12" letter-spacing="3" fill="#68756E">01</text>
+ <text x="270" y="384" font-size="13" letter-spacing="2">LINUX</text>
+
+ <text x="548" y="384" font-size="12" letter-spacing="3" fill="#68756E">02</text>
+ <text x="680" y="384" font-size="13" letter-spacing="2">KUBERNETES</text>
+
+ <text x="928" y="384" font-size="12" letter-spacing="3" fill="#68756E">03</text>
+ <text x="1060" y="384" font-size="13" letter-spacing="2">OBSERVABILITY</text>
+
+ <text x="138" y="448" font-size="11" letter-spacing="2" fill="#68756E">AUTOMATION / CLOUD / IaC / GITOPS</text>
+ <text x="1262" y="448" font-size="11" text-anchor="end" letter-spacing="2" fill="#68756E">REV. 2026.08</text>
+</g>
+</svg>
